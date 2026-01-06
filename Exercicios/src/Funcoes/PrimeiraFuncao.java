@@ -13,6 +13,8 @@ public class PrimeiraFuncao {
 		dobrar(numero);
 		int dobra = dobrar(numero);
 		System.out.println(numero);
+		
+		System.out.println(proximo(0));
 	}
 	
 	public static void saudacao(){
@@ -39,6 +41,24 @@ public class PrimeiraFuncao {
 	public static int dobrar(int n) {
 		
 		return n * 2;
+		
+	}
+	
+	public static int proximo(int valor) {
+		
+		int aux = valor++;
+				if (valor == 0) {
+					
+					return 1;
+				}
+				
+		while (true) {
+			if (aux > valor) {
+				aux ++;
+			}
+			return aux;
+		}
+		
 		
 	}
 
