@@ -15,6 +15,8 @@ public class ExercicioTres {
 		String verificar = paridade(numero);
 		
 		System.out.println(verificar);
+		
+		input.close();
 
 	}
 	
