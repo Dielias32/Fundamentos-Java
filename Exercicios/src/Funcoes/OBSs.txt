@@ -1,6 +1,6 @@
 ***Sobrecargas de funcoes***
 
-Criar funcoes com o mesmo nome, mas, com versoes diferentes!
+Criar funcoes com o mesmo nome, mas, como versoes diferentes!
 
 regas
 
