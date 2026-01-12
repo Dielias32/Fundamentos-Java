@@ -18,6 +18,8 @@ public class ExercicioUm {
 		
 		
 		System.out.println("A temperatura em °F é " + conversao);
+		
+		input.close();
 		 
 
 	}
