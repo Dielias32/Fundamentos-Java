@@ -1,0 +1,7 @@
+***Sobrecargas de funcoes***
+
+Criar funcoes com o mesmo nome, mas, com versoes diferentes!
+
+regas
+
+as funcoes devem divergir quantiade de parâmetros, ou, tipos diferentes de parâmetros, ou tipo de retorno! 
