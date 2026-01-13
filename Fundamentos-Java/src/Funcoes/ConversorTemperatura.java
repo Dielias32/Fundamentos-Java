@@ -43,6 +43,12 @@ public class ConversorTemperatura {
 
 		input.close();
 	}
+	
+	/**
+	 * @author Elias
+	 * funcao para coversao de temper
+	 * 
+	 */
 
 	public static double TempC(double c) {
 

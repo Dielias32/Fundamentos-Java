@@ -7,3 +7,4 @@ regas
 as funcoes devem divergir quantiade de parâmetros, ou, tipos diferentes de parâmetros, ou tipo de retorno!
 
 novo teste
+teste
