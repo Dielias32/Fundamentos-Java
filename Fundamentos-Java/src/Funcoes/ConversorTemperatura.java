@@ -14,7 +14,7 @@ public class ConversorTemperatura {
 
 		int entrada = input.nextInt();
 
-		if (entrada !=1 && entrada != 2) {
+		if (entrada != 1 && entrada != 2) {
 
 			System.out.println(
 					"Entrada invalida, digite 1 para converter C° para F° OU digite 2 para converter de F° para C°");
@@ -22,10 +22,6 @@ public class ConversorTemperatura {
 			input.close();
 			return;
 		}
-		
-		
-		
-		
 
 		switch (entrada) {
 		case 1:
@@ -33,14 +29,14 @@ public class ConversorTemperatura {
 
 			double tempC = input.nextDouble();
 			TempC(tempC);
-			System.out.println("Essa temperatura em F° é: " + tempC);
+			System.out.println("Essa temperatura em F° é: " + TempC(tempC));
 			break;
 		case 2:
 			System.out.println("Digite a temperatura em F°");
 
 			double tempF = input.nextDouble();
 			TempF(tempF);
-			System.out.println("Essa temperatura em C° é: " + tempF);
+			System.out.println("Essa temperatura em C° é: " + TempF(tempF));
 			break;
 
 		}
@@ -48,18 +44,16 @@ public class ConversorTemperatura {
 		input.close();
 	}
 
-	public static void TempC(double c) {
+	public static double TempC(double c) {
 
-		double conversao = (c * 9 / 5) + 32;
-
-		
+		return (c * 9 / 5) + 32;
 
 	}
 
-	public static void TempF(double f) {
+	public static double TempF(double f) { 
 
-		double conversao = (f - 32) * 5 / 9;
-		
+		return (f - 32) * 5 / 9;
+
 	}
 
 }
