@@ -4,8 +4,6 @@ Criar funcoes com o mesmo nome, mas, como versoes diferentes!
 
 regas
 
-as funcoes devem divergir quantiade de parâmetros, ou, tipos diferentes de parâmetros, ou tipo de retorno! 
+as funcoes devem divergir quantiade de parâmetros, ou, tipos diferentes de parâmetros, ou tipo de retorno!
 
-
-
-teste
+novo teste
