@@ -24,13 +24,13 @@ public class LoopFor {
 		
 		for(int i = 0; i < palavra.length(); i++) {
 			
-			System.out.println(palavra + " tem " + palavra.charAt(i) + " caracteres!");
+			System.out.println("Caracterer " + palavra.charAt(i));
 		}
 		
 		
 		//Contagem regreciva
 		for(int i = 5; i > 0; i--) {
-			System.out.println("Contador" + i);
+			System.out.println("Regreciva" + i);
 		}
 
 	}
