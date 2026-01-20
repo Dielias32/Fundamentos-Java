@@ -14,7 +14,7 @@ public class LoopFor {
 		 * Incremento -> a variavel vai chegar na condicao
 		 */
 		
-		// conta de 1 a 5
+		// contador de 1 a 5
 		for(int i = 1; i <=5; i++) {
 			System.out.println("Contador " + i);
 		}
