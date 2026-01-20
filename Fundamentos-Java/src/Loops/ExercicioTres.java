@@ -7,6 +7,11 @@ public class ExercicioTres {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/*
+		 * Escreva um programa que receba um numero do usuario e use um loop for para
+		 * identificar se ele é primo!
+		 */
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Digite um valor");
