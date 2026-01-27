@@ -11,7 +11,7 @@ public class ExercicioSeis {
 		 */
 		
 		
-		int numero = 10;
+		int numero = 7777777;
 		int contador = 0;
 		
 		
@@ -19,7 +19,7 @@ public class ExercicioSeis {
 		
 		while(numero !=0) {
 			numero = numero/10;
-			
+			System.out.println(numero);
 			contador ++;
 		}
 		
